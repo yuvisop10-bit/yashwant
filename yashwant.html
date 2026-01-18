@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashwant's Python Portfolio</title>
+    <style>
+        :root {
+            --primary: #3498db;
+            --dark: #2c3e50;
+            --light: #f4f6f9;
+        }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.6; max-width: 1000px; margin: auto; padding: 20px; background-color: var(--light); color: #333; }
+        header { text-align: center; padding: 40px 20px; background: var(--dark); color: #fff; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { margin: 0; font-size: 2.5em; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: transform 0.2s; border-left: 5px solid var(--primary); }
+        .card:hover { transform: translateY(-5px); }
+        h2 { color: var(--dark); margin-top: 0; font-size: 1.2em; display: flex; justify-content: space-between; align-items: center; }
+        .desc { font-size: 0.9em; color: #666; margin-bottom: 15px; }
+        pre { background: #282c34; color: #abb2bf; padding: 15px; border-radius: 8px; overflow-x: auto; font-family: 'Consolas', monospace; font-size: 0.85em; border: 1px solid #ddd; }
+        .badge { background: #e3f2fd; color: var(--primary); padding: 4px 8px; border-radius: 4px; font-size: 0.7em; text-transform: uppercase; letter-spacing: 0.5px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Python Logic Portfolio</h1>
+    <p>Handwritten Programmes 1 through 10</p>
+</header>
+
+<div class="grid">
+    <div class="card">
+        <h2>Prog 1: Basic Math <span class="badge">Intro</span></h2>
+        <p class="desc">Demonstrates print statements, string arguments (end=" "), and integer multiplication.</p>
+        <pre>Hello
+learner Alan
+50 times 300 is 15000</pre>
+    </div>
+
+    <div class="card">
+        <h2>Prog 2: Simple Interest <span class="badge">Finance</span></h2>
+        <p class="desc">Calculates Simple Interest (SI) using P, R, and T. Checks data types.</p>
+        <pre>Data type: <class 'int'>
+Value of simple interest: 900.0
+datatype: <class 'float'></pre>
+    </div>
+
+    <div class="card">
+        <h2>Prog 3: Birthday Cast <span class="badge">Strings</span></h2>
+        <p class="desc">Type casting an integer (Day) to a String to concatenate with Month.</p>
+        <pre>Before casting: <class 'int'>
+After casting: <class 'str'>
+Birth date of student: 10July</pre>
+    </div>
+
+    <div class="card">
+        <h2>Prog 4: Rectangle <span class="badge">Geometry</span></h2>
+        <p class="desc">Takes Length and Breadth inputs to find Area (L*B) and Perimeter 2*(L+B).</p>
+        <pre>Area of the rectangle in cm is: 50
+Perimeter of the rectangle is: 30</pre>
+    </div>
+
+    <div class="card">
+        <h2>Prog 5: Square <span class="badge">Geometry</span></h2>
+        <p class="desc">Takes Side (S) input to calculate Area (S*S) and Perimeter (4*S).</p>
+        <pre>Area: 16
+Perimeter: 16</pre>
+    </div>
+
+    <div class="card">
+        <h2>Prog 6: Grade Calc <span class="badge">Academic</span></h2>
+        <p class="desc">Calculates Total and Average marks for Science, Math, and English.</p>
+        <pre>Hello, what is your name: Yashwant
+Total marks: 240.0
+Average of your marks is: 80.0</pre>
+    </div>
+
+    <div class="card">
+        <h2>Prog 7: Triangle <span class="badge">Geometry</span></h2>
+        <p class="desc">Calculates Area using (B*H)/2 and Perimeter by adding all 3 sides.</p>
+        <pre>Area of triangle is: 12.0
+Perimeter of triangle is: 16</pre>
+    </div>
+
+    <div class="card">
+        <h2>Prog 8: Discount <span class="badge">Finance</span></h2>
+        <p class="desc">Calculates discount value from MRP and subtracts it for final price.</p>
+        <pre>The amount value is: 100.0
+The total amount after discount: 900.0</pre>
+    </div>
+
+    <div class="card">
+        <h2>Prog 9: Cuboid <span class="badge">3D Math</span></h2>
+        <p class="desc">Calculates Surface Area 2(LW+LH+WH) and Volume (L*W*H).</p>
+        <pre>The surface area of cuboid: 52.0
+The volume of a cuboid: 24.0</pre>
+    </div>
+
+    <div class="card">
+        <h2>Prog 10: Age Calc <span class="badge">Logic</span></h2>
+        <p class="desc">Converts user age from years into total seconds lived.</p>
+        <pre>Hello Yashwant, age in years: 20
+your age in seconds: 630720000</pre>
+    </div>
+</div>
+
+</body>
+</html>
